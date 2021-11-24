@@ -1,0 +1,10 @@
+heroku config:add APP_DATABASE='heroku_e38a7c57640a7a7' -a rails-docker-guns
+
+heroku config:add APP_DATABASE_USERNAME='b23462dad92f62' -a rails-docker-guns
+
+heroku config:add APP_DATABSE_PASSWORD='95268b98' -a rails-docker-guns
+
+heroku config:add APP_DATABSE_HOST='us-cdbr-east-04.cleardb.com' -a rails-docker-guns
+
+
+mysql://b23462dad92f62:95268b98@us-cdbr-east-04.cleardb.com/heroku_e38a7c57640a7a7?reconnect=true
